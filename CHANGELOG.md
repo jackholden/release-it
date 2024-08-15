@@ -1,5 +1,7 @@
 
 
+## [0.2.1](https://github.com/jackholden/release-it/compare/0.2.0...0.2.1) (2024-08-15)
+
 # [0.2.0](https://github.com/jackholden/release-it/compare/0.1.0...0.2.0) (2024-08-15)
 
 
