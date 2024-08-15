@@ -1,5 +1,12 @@
 
 
+## [0.1.2](https://github.com/jackholden/release-it/compare/0.2.1...0.1.2) (2024-08-15)
+
+
+### Deprecated
+
+* Deprecate function Y ready for removal in next major bump ([12aa128](https://github.com/jackholden/release-it/commit/12aa1280f16e6b86726f3d15d905d2092d29c778))
+
 ## [0.2.1](https://github.com/jackholden/release-it/compare/0.2.0...0.2.1) (2024-08-15)
 
 # [0.2.0](https://github.com/jackholden/release-it/compare/0.1.0...0.2.0) (2024-08-15)
