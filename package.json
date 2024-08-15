@@ -12,22 +12,33 @@
     "husky": "^9.1.4",
     "release-it": "^17.6.0"
   },
-  "plugins": {
-    "@release-it/conventional-changelog": {
-      "infile": "CHANGELOG.md",
-      "preset": {
-        "name": "conventionalcommits",
-        "types": [
-          {
-            "type": "feat",
-            "section": "Features"
-          },
-          {
-            "type": "fix",
-            "section": "Bug Fixes"
-          },
-          {}
-        ]
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}"
+    },
+    "github": {
+      "release": false
+    },
+    "npm": {
+      "publish": false
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "infile": "CHANGELOG.md",
+        "preset": {
+          "name": "conventionalcommits",
+          "types": [
+            {
+              "type": "feat",
+              "section": "Features"
+            },
+            {
+              "type": "fix",
+              "section": "Bug Fixes"
+            },
+            {}
+          ]
+        }
       }
     }
   },
