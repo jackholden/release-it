@@ -1,6 +1,6 @@
 {
   "name": "@jackholden/release-it",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Exploring release-it for use in FED",
   "main": "index.js",
   "scripts": {

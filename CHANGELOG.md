@@ -1,3 +1,12 @@
+
+
+## [0.1.1](https://github.com/jackholden/release-it/compare/0.1.0...0.1.1) (2024-08-15)
+
+
+### Bug Fixes
+
+*  change to changelog ([4c3925c](https://github.com/jackholden/release-it/commit/4c3925c71e660915c642489893dc6bc08585ba87))
+
 # @jackholden/release-it
 
 ## [0.1.0](https://github.com/jackholden/release-it/compare/0.0.1...0.1.0) (2024-08-15)
