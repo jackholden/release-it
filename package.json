@@ -4,8 +4,7 @@
   "description": "Exploring release-it for use in FED",
   "main": "index.js",
   "scripts": {
-    "release": "release-it",
-    "prepare": "husky"
+    "release": "release-it"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^8.0.1",
