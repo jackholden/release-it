@@ -1,16 +1,14 @@
-
+# @jackholden/release-it
 
 ## [0.1.0](https://github.com/jackholden/release-it/compare/0.0.1...0.1.0) (2024-08-15)
 
-
 ### Features
 
-* change ([fda41c8](https://github.com/jackholden/release-it/commit/fda41c8d15c06508e07c476a2d731ffe53114763))
-
+- change ([fda41c8](https://github.com/jackholden/release-it/commit/fda41c8d15c06508e07c476a2d731ffe53114763))
 
 ### Bug Fixes
 
-* package.json change ([d49287a](https://github.com/jackholden/release-it/commit/d49287afc50c2f032579d3d4a36d87ff60f04d2a))
-* remove husky ([6649ffa](https://github.com/jackholden/release-it/commit/6649ffabbb7bf70d415fb762c62d265137f7de88))
+- package.json change ([d49287a](https://github.com/jackholden/release-it/commit/d49287afc50c2f032579d3d4a36d87ff60f04d2a))
+- remove husky ([6649ffa](https://github.com/jackholden/release-it/commit/6649ffabbb7bf70d415fb762c62d265137f7de88))
 
 ## 0.0.1 (2024-08-15)
