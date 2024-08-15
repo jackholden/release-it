@@ -1,0 +1,38 @@
+{
+  "name": "@jackholden/release-it",
+  "version": "0.0.0",
+  "description": "Exploring release-it for use in FED",
+  "main": "index.js",
+  "scripts": {
+    "release": "release-it",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^8.0.1",
+    "husky": "^9.1.4",
+    "release-it": "^17.6.0"
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "infile": "CHANGELOG.md",
+      "preset": {
+        "name": "conventionalcommits",
+        "types": [
+          {
+            "type": "feat",
+            "section": "Features"
+          },
+          {
+            "type": "fix",
+            "section": "Bug Fixes"
+          },
+          {}
+        ]
+      }
+    }
+  },
+  "repository": "github:jackholden/release-it",
+  "publishConfig": {
+    "@jackholden:registry": "https://npm.pkg.github.com"
+  }
+}
